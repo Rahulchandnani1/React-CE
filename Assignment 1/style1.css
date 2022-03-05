@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+header{
+border-top:1px solid green;
+border-bottom:2px solid green;
+padding-top:6px;
+}
+/*input{boxing-size:border-box;}
+*/
+h1{
+    text-align: left;
+    color: dodgerblue;
+    font-size: 36px;
+    font-family: 'Segoe UI', sans-serif;
+    margin:0 0 20px;
+}
+nav{
+    display: flex;
+justify-content:space-between;
+
+}
+
+
+.app-container{    
+    margin: 50px 40px;
+}
+
+.logo-container{
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color:black;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    margin-right:2px;
+    background-color: dodgerblue;
+    display: inline-block;
+    border-radius: 50%;
+
+    
+}
+.links-container{
+    padding: 6px 20px;
+}
+.links-container > button{
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 0px solid dodgerblue;
+    background: transparent;
+    margin-right: 10px;
+    color: dodgerblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.links-container > button:hover{    
+    background: dodgerblue;
+    color: white;
+}
+
+
+.search-container{padding:5px;margin-left:auto;
+margin-right:10px;
+}
+
+
+
+
+
+
+
+.img-container{
+
+ position:relative;
+}
+.img-container >div{position:absolute;
+left:20px;
+font-size:40px;
+color:dodgerblue;
+bottom:50px;}
+
+.section-container{margin:80px;background:white;
+border:0px solid dodgerblue;}
+.section-container .section{margin-bottom:30px;
+width:97%;
+height:100px;
+padding:10px;
+background-color:F2F4F4;
+border:1px ;}
+.section-container .section>p{
+margin-top:0;}
+
+.posts-container{
+width:80%;
+
+margin-left:80px;
+}
+.posts-container .post{height:130px;
+width:900px;
+border-bottom:2px solid RGB(213, 219, 219) ;
+}
+.f-container{display:flex;
+width:100%;
+height:150px;
+background-color:dodgerblue;
+justify-content:space-between;
+}
+.f-container .inlink{flex-direction:column;
+margin-left:30px;
+margin-top:45px;
+display:flex;}
+.f-container .inlink>a:hover,focus{color:green;}
